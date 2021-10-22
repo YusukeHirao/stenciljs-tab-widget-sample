@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/components.esm.js"></script>
+    <script nomodule src="/build/components.js"></script>
+  </head>
+  <body>
+    <h1>Tabサンプル</h1>
+    <c-tabs seleted-index="1">
+      <c-tab slot="tab">りんご</c-tab>
+      <c-tab slot="tab">みかん</c-tab>
+      <c-tab slot="tab">ぶどう</c-tab>
+      <c-tabpanel slot="tabpanel">これはりんご</c-tabpanel>
+      <c-tabpanel slot="tabpanel">これはみかん</c-tabpanel>
+      <c-tabpanel slot="tabpanel">これはぶどう</c-tabpanel>
+    </c-tabs>
+  </body>
+</html>

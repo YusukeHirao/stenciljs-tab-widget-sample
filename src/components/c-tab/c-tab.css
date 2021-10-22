@@ -1,0 +1,8 @@
+c-tab {
+  display: contents;
+}
+
+c-tab button[aria-selected='true'] {
+  background: blue;
+  color: white;
+}

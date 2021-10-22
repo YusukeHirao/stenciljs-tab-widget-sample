@@ -1,0 +1,7 @@
+c-tabpanel {
+  display: contents;
+}
+
+c-tabpanel > div[aria-hidden='true'] {
+  display: none;
+}
